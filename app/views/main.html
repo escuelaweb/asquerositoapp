@@ -1,17 +1,12 @@
 <nav class="navbar navbar-default" role="navigation">
-
-  <div class="navbar-header">
-    <a class="navbar-brand" href="#">Asq</a>
-    <form class="navbar-form navbar-left" role="search">
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Search">
-      </div>
+  <a class="navbar-brand" href="#">Asq</a>
+  <div class="col-xs-5 center-block">
+    <form class="navbar-form" role="search">
+        <input type="text" ng-model="searchTerms" class="form-control" placeholder="Search"/>        
     </form>
   </div>
-    <a class="navbar-right"> <span class="icon-target"></span> </a>
-
+    <p class="navbar-text navbar-right"><a class="navbar-link"> <span class="icon-target"></span> </a></p> 
 </nav>
-
 <div class="footer">
   <p>Alcanzaste el final de la pagina.</p>
 </div>
